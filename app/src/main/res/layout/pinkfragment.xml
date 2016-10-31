@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evolutiondso.www.w2d4_nestedfragments.SecondFragment"
+    android:background="@color/colorAccent">
+
+    <Button
+        android:text="This is nested"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="0dp" />
+</FrameLayout>
